@@ -1,5 +1,5 @@
 {
-  "name": "starbucks_api",
+  "name": "starbucks-api",
   "version": "1.0.0",
   "description": "Node.js interface for the private Starbucks API",
   "main": "index.js",
