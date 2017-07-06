@@ -17,6 +17,7 @@ $ npm install starbucks-api
 Once you've obtained your `client_id`, `client_secret`, and OAuth `access_token`, you can create a client:
 
 ```js
+const Client = require('starbucks-api');
 const sbux = new Client('<client id>', '<client secret>', '<access token>');
 ```
 
@@ -25,7 +26,7 @@ const sbux = new Client('<client id>', '<client secret>', '<access token>');
 Every method on the client returns a promise, so they can be chained together. You can order stuff, like this:
 
 ```js
-const Client = require('./lib/starbucks');
+const Client = require('starbucks-api');
 const Bluebird = require('bluebird');
 
 const sbux = new Client('<client id>', '<client secret>', '<access token>');
