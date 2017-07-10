@@ -9,7 +9,8 @@
     "axios": "^0.16.2",
     "bluebird": "^3.5.0",
     "lodash": "^4.17.4",
-    "md5": "^2.2.1"
+    "md5": "^2.2.1",
+    "moment": "^2.18.1"
   },
   "repository": {
     "type": "git",
